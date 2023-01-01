@@ -60,7 +60,7 @@
           <div>
             <label htmlFor="km">Kilometers</label>
             <input
-              value={!invert ? amount : amount * 1.60934}
+              value={invert ? amount * 1.60934 : amount}
               id="km"
               type="number"
               placeholder="kilometers"
